@@ -10,7 +10,7 @@
   "description": "Create an Apollo On Couchbase server with one command",
   "repository": {
     "type": "git",
-    "url": "https://github.com/baaboom/create-apollo-couchbase-server",
+    "url": "https://github.com/pederbl/create-apollo-couchbase-server",
     "directory": "packages/create-apollo-couchbase-server"
   },
   "author": "Peder Linder <peder@baaboom.com>",
