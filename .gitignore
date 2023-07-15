@@ -1,0 +1,21 @@
+# Compiled JavaScript and type declaration files
+/dist
+
+# Node modules
+/node_modules
+
+# Editor and IDE specific files and folders
+/.vscode
+.idea
+*.swp
+*.swo
+*.swn
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+__MACOSX
+
+# Logs and temporary files
+*.log
+*.tmp
