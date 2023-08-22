@@ -94,7 +94,7 @@ export const installTemplate = async ({
   )
 
   // update import alias in any files if not using the default
-  if (importAlias !== '@/*') {
+  if (typeof importAlias !== 'undefined' && importAlias !== '@/*') {
     console.log("importAlias: ", importAlias); 
     const files = await glob('**/*', { cwd: root, dot: true })
     const writeSema = new Sema(8, { capacity: files.length })
